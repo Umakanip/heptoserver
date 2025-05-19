@@ -12,9 +12,9 @@
     "sequelize": "^6.37.7",
     "tedious": "^18.6.1"
   },
-  "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only index.ts"
-  },
+ "scripts": {
+  "start": "node src/index.js"
+},
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
     "@types/cors": "^2.8.18",
